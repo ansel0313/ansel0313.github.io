@@ -3,7 +3,7 @@
   word-break: break-all;
 }
 .post_content {
-  word-break: break-all;
+  word-break: normal;
   padding: 0 8px 0;
 }
 .post_content p {
@@ -12,15 +12,6 @@
 }
 .post_content img {
   max-width: 100%;
-}
-.post_content h1::before,
-h2::before,
-h3::before,
-h4::before,
-h5::before,
-h6::before {
-  content: "# ";
-  color: #0e5796;
 }
 .post_content h1,
 h2,
